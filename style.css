@@ -1,0 +1,97 @@
+
+
+
+@font-face {
+     font-family: roboto;
+     src: url(./fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+
+.fonts{
+     font-family: roboto !important;
+     
+}
+ 
+
+
+.btn{
+    border: #1C1E53 1px solid !important;
+    color: #1C1E53 !important;
+    background-color: whitesmoke;
+}
+ 
+
+.btn:hover{
+     border: #0c0c0c 1px solid !important;
+     background-color: #1C1E53 !important;
+     color: #fffcfc !important;
+}
+
+
+.textcolor{
+    color:#1C1E53 !important;
+
+}
+
+
+.spancolor{
+      color: #1C1E53 !important;
+}
+
+.h-btn{
+      border: #0c0c0c 1px solid !important;
+     background-color: #1C1E53 !important;
+     color: #ececf0 !important;
+}
+
+.h-btn:hover{
+     background-color: #fdfdff !important;
+     color: #1C1E53 !important;
+     
+}
+
+.bg-c{
+background-color: #F5FCFF;
+;
+}
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:480px){
+     .con{
+          justify-content: center;
+          text-align: center;
+   
+}
+
+ 
+.btnn{
+     width: 100% !important;
+     justify-content: center !important;
+     align-items: center !important;
+}
+
+
+.icon{
+     justify-content: center !important;
+     align-items: center !important;
+     text-align: center !important;
+}
+     
+
+.rows{
+     display: flex !important;
+     flex-direction: column-reverse !important;
+}
+
+.fps{
+     font-size: 15px !important;
+}
+
+.fhs{
+     font-size: 30px !important;
+}
+}
