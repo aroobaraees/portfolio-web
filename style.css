@@ -6,7 +6,9 @@
      src: url(./fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf);
 }
 
-
+body{
+     font-family: roboto;
+}
 .fonts{
      font-family: roboto !important;
      
@@ -52,7 +54,31 @@
 
 .bg-c{
 background-color: #F5FCFF;
-;
+
+.teature-icon img{
+     width: 100%;
+     height: 250px;
+    object-fit: cover;
+}
+
+
+.size-box{
+     width: 30% !important;
+display: flex !important;
+
+}
+
+
+.margin{
+     margin-top: 100px !important;
+}
+
+
+.margin-x{
+margin: 0px 50px !important;
+}
+
+
 }
 
 
@@ -64,7 +90,7 @@ background-color: #F5FCFF;
      .con{
           justify-content: center;
           text-align: center;
-   
+          margin: auto;
 }
 
  
@@ -94,4 +120,15 @@ background-color: #F5FCFF;
 .fhs{
      font-size: 30px !important;
 }
+
+h1{
+    font-size: 30px !important;  
+}
+
+p{
+   font-size: 15px !important;  
+}
+
+
+ 
 }
